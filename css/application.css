@@ -1,12 +1,4 @@
 
-.wide {
-    width: 100%;
-    height: 100%;
-    height: calc(100% - 1px);
-    background-image: url('../img/header.jpg');
-    background-size: cover;
-}
-
 body {
   font-family: 'Lato', Arial, sans-serif;
   color: #98999b;
@@ -18,7 +10,7 @@ h1 {
 }
 h2 {
   font-weight: 400;
-    font-size: 24px;
+  font-size: 24px;
 }
 h4, h4.panel-title {
   font-weight: 200;
@@ -38,15 +30,15 @@ p.small {
 .white {
   color: #fff;
 }
+.wide {
+  width: 100%;
+  height: 100%;
+  height: calc(100% - 1px);
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+}
+a, a:hover, a:active, a:focus, a:visited { text-decoration: none; }
 
-
-
-<<<<<<< HEAD
-
->>>>>>> bkrutsch14/master
-h1{text-align: center;}
-=======
->>>>>>> bkrutsch14/master
 .header-wrapper {
   padding:100px 0;
   margin:0 auto;
@@ -143,7 +135,7 @@ a img:hover{background: #5fa8e4 !important;}
 
 
 
-.myrow{ width:100%; margin:0; paddding:0}
+.myrow{ width:100%; margin:0; padding:0}
 
 .row.no-gutters {
   margin-right: 0;
@@ -193,7 +185,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     z-index: 2;
     margin-left: -2px;
 }
-/*#zip-search-wrapper .form-control::-moz-placeholder {
+#zip-search-wrapper .form-control::-moz-placeholder {
   color: #fff;
 }
 #zip-search-wrapper .form-control:-ms-input-placeholder {
@@ -201,7 +193,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 #zip-search-wrapper .form-control::-webkit-input-placeholder {
   color: #fff;
-}*/
+}
 
 
 
@@ -445,7 +437,9 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
   border-radius: 6px;
   margin-top: 12px;
 }
-
+a.btn {
+  color: #fff;
+}
 
 
 
@@ -489,9 +483,9 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 #checklist{margin-top:45px;}
 #checklist h1{font-size:58px;margin-bottom: 16px;}
 
-#checklist p{    
+#checklist p.main{    
     text-align: center;
-    color:#98999b;
+    /*color:#98999b;*/
     font-size:20px;
     font-size:24px;
     line-height:34px;
@@ -499,7 +493,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     letter-spacing: 3px;
 }
 
-#checklist p.whitep{color:#fff !important;}
+/*#checklist p.whitep{color:#fff !important;}*/
 
 #care_ani{min-height:460px;border-bottom: 1px solid #fff;padding-top: 40px;}
 .services-section{padding:31px 70px 60px 70px;}
