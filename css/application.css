@@ -1,0 +1,523 @@
+h1{text-align: center;}
+.header-wrapper {
+  padding:100px 0;
+  margin:0 auto;
+  color:#fff;
+  background-color:#dbd742;
+}
+
+.header-wrapper .row {
+  text-align:center;
+}
+
+.header-wrapper h1 {
+  font-size:8rem;
+  margin-bottom:4rem;
+}
+
+.header-wrapper h1 span {
+  font-weight:100 !important;
+}
+#navbar-main{
+margin:0;
+border-radius: 0px;
+}
+#zip-search-wrapper h3 {
+  float:left;
+  font-weight:300;
+  font-size:1.8rem;
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  margin:0;
+  padding:1.2rem 0;
+  color:#fff;
+  margin-left: 45px;
+}
+.control-label {
+  color:#fff;
+  margin-top:6px;
+}
+#zip-search-wrapper .form-group,{
+  margin-top:6px;
+}
+#zip-search-wrapper .input-group {
+  width:195px;
+  margin-top:6px;
+}
+#zip-search-wrapper .btn-default {
+    color: #5fa8e4;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.bluesection {
+    background-color: #5fa8e4;  
+}
+.navbar {
+    min-height: 70px;
+}
+#zip-search-wrapper{margin-top: 9px;}
+
+.bx-wrapper img {
+    margin: 0 auto;
+}
+.padding20{padding:20px !important;}
+ /* bx slider bootsrap fix */
+a.active img{background: #5fa8e4 !important;}
+a img:hover{background: #5fa8e4 !important;}
+.bx-wrapper {width: 100%; height: 100%;}
+ #bxslider1 img {width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.bxslider2 img{max-width:369px;}
+#bx-pager a img {background: #ccc ;border-radius:200px;    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+}
+#firstimage{visibility:hidden;}
+#bx-pager a {display:block;padding:20px;}
+    .bx-wrapper .bx-viewport {
+         -moz-box-shadow: 0 0 0px #ccc;
+         -webkit-box-shadow: 0 0 0px #ccc;
+         box-shadow: 0 0 0px #ccc;
+         border: solid #51a351 0px;
+         left: 0px;
+         background: transparent;
+     }
+
+.slide-pane {
+    color:#FFF;
+        padding: 0 44px;
+}
+.text-pane {
+ 
+    color:#FFF;
+    padding:20px 0 0 20px !important;
+}
+
+
+
+.myrow{ width:100%; margin:0; paddding:0}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-inverse {
+    background-color: #5fa8e4;
+    border-color: #5fa8e4;
+}
+.offer_copy{
+  float:left;
+  font-weight:300;
+  font-size:1.8rem;
+  font-family:"Helvetica Neue", Helvetica, sans-serif;
+  margin:0;
+  padding:0.9rem 0;
+  color:#fff;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #5fa8e4;
+    background-image: none;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-default:focus {   
+    border-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0px 0px rgba(229, 103, 23, 0.075) inset, 0 0 0px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -2px;
+}
+#zip-search-wrapper .form-control::-moz-placeholder {
+  color: #fff;
+}
+#zip-search-wrapper .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+#zip-search-wrapper .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+
+
+
+
+/********************************/
+/******* IRREG CTA STYLES *******/
+.irreg-cta-contain.row {
+  margin: 0;
+  color: #fff;
+}
+
+.irreg-cta-contain h1, 
+.irreg-cta-contain h2 {
+    font-weight: 700;
+}
+.cta.salon p {
+  padding: 0 15px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.clear {
+    clear: both;
+}
+.cta.salon {
+    height: 500px;
+}
+.cta.rewards, 
+.cta.stylist {
+  height: 250px;
+}
+.btn-learnmore {
+  background: #fff;
+  color: #fc9527;
+  min-width: 120px;
+  border-radius: 6px;  
+}
+
+.rewards-content {
+  padding: 0 10%;
+}
+.rewards-snippet {
+    border: 4px dashed;
+    /*width: 80%;*/
+    margin: auto;
+    padding: 15px 30px;
+}
+.dollabill {
+    font-size: 28px;
+    font-weight: 600;
+    vertical-align: top;
+}
+.twenty {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.pals {
+  text-align: left;
+}
+.pals-rewards {
+  font-size: 28px;
+  font-weight: 600;
+}
+.fortyplus {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.twentydolla {
+  padding-left: 0;
+  text-align: right;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .rewards-content {
+    padding: 0 30px;
+  }
+  .rewards-snippet {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .rewards-content {
+    padding: 0 30px;
+  }
+  .rewards-snippet {
+    padding: 15px;
+  }
+  .twentydolla,
+  .pals {
+      padding: 0;
+  }
+  .dollabill {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .twentydolla,
+  .pals {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+/***** END IRREG CTA STYLES *****/
+/********************************/
+#beforeafter{background:url(../img/circle_bg.png)  center center no-repeat;}
+#beforeafter h1{color:#fff;margin-top: 60px;margin-bottom: 40px;font-size:58px;}
+#beforeafter p {
+    font-size: 20px;
+}
+
+/******************************/
+/****** ACCORDION STYLES ******/
+.accordion {
+  font-family: Lato, sans-serif;
+  padding: 60px 0;
+}
+.accordion h1 {
+    font-weight: 700;
+    color: #98999b;
+}
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.panel-default, 
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: none;  
+}
+.panel-body {
+    padding: 15px 0;
+    margin: 15px 0;
+}
+.panel-default>.panel-heading {
+    background-color: transparent;
+    border: none;
+    color: #98999b;
+    padding: 15px 0;
+}
+
+.panel-body {
+    background: #dbd642;
+    color: #fff;
+}
+.answer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.answer div {
+  padding-right: 0;
+}
+.answer img {
+  max-width: 100%;
+}
+.answer p {
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+@media (max-width: 1200px) {
+  .accordion h1 {
+    text-align: center;
+  }  
+}
+/**** END ACCORDION STYLES ****/
+/******************************/
+
+
+
+
+
+
+
+/******************************/
+/******* EXPLORE STYLES *******/
+.explore-cta-contain {
+  font-family: Lato, sans-serif;
+}
+.explore-cta-contain h1 {
+    font-weight: 700;
+    color: #fff;
+
+}
+.cta {
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    height: 300px;
+    display: table;
+}
+.cta-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.cta img {
+    min-width: 100%;
+    /* position: absolute;
+    top: 50%; 
+    left: 50%;
+    z-index: -5;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; */
+    z-index: -5;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    margin: auto;
+}
+.btn-explore {
+  background: #5fa8e4;
+  color: #fff;
+  min-width: 120px;
+  border-radius: 6px;
+}
+
+
+
+
+/***** END EXPLORE STYLES *****/
+/******************************/
+
+
+
+/********************************/
+/******* SEVEN POINT CHECK*******/
+/* Centered heading with rules */
+.g_headline{margin-bottom: 20px;}
+.bxslider li { min-height: 1px; min-width: 1px; }
+
+#checklist h2 {
+    overflow: hidden;
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    letter-spacing: 6px;
+}
+#checklist h2:before,
+#checklist h2:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+#checklist h2:before {
+    right: 0.9em;
+    margin-left: -50%;
+}
+#checklist h2:after {
+    left: 0.9em;
+    margin-right: -50%;
+}
+#checklist{margin-top:45px;}
+#checklist h1{font-size:58px;margin-bottom: 16px;}
+
+#checklist p{    
+    text-align: center;
+    color:#98999b;
+    font-size:20px;
+    font-size:24px;
+    line-height:34px;
+    margin:30px;
+    letter-spacing: 3px;
+}
+
+#checklist p.whitep{color:#fff !important;}
+
+#care_ani{min-height:460px;border-bottom: 1px solid #fff;padding-top: 40px;}
+.sevenpoint{padding:31px 70px 60px 70px;}
+
+.arrow_holder{height:30px;}
+.arrow {
+width: 0;
+height: 0;
+border: 30px solid #fff;
+border-bottom: 30px solid #5fa8e4;
+border-top:none;
+    position: absolute;
+    right:47%;
+        
+}
+
+#care_ani .care_bg {position:absolute;background:url(../img/dog_graphic.png)repeat-x 0px 0px;background-size:contain;}
+#care_ani #care_main_bg {width:765px; height:331px;left:0;right:0;top:0px;bottom:0;margin: auto auto;visibility: visible;}
+
+.circle {
+    background: #5fa8e4;
+    border: 2px #fff solid;
+    border-radius:200px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+}
+#circle_ears {top: 2%;left: 24%;}
+#circle_eyes {top: 10%;left: 4%;}
+#circle_mouth {top: 43%;left: 6%;}
+#circle_nose {top: 68%;left: 22%;}
+#circle_underside {top: 2%;left: 78%;}
+#circle_skin {top: 42%;left: 78%;}
+#circle_nails {top: 69%;left: 88%;}
+
+ @media only screen and (max-width : 1200px) {
+     #circle_ears {top: 2%;left: 24%;}
+#circle_eyes {top: 10%;left: 4%;}
+#circle_mouth {top: 43%;left: 2%;}
+#circle_nose {top: 64%;left: 18%;}
+#circle_underside {top: 4%;left: 78%;}
+#circle_skin {top: 36%;left: 78%;}
+#circle_nails {top: 62%;left: 88%;}
+}
+
+#circle_center {top: 50%;left: 50%;}
+
+.point_desc p{width:100%;font-size:16px!important;line-height:20px!important;padding-top:40px;}
+.circle p{
+    color:#fff !important;
+    position:absolute;
+    top:20%;
+    left:0%;
+    right:0%;
+    margin: 20px!important;
+    letter-spacing: 3px;
+    text-align:center;
+    margin:0px!important;
+    letter-spacing: 1px!important;
+    line-height:24px!important;
+
+}
+ @media only screen and (max-width : 768px) {
+.sevenpoint{padding:16px 35px 30px 35px !important;}
+#care_ani #care_main_bg {width:565px; height:231px; top:0px; left:0px;visibility: visible;background-size: contain;}
+
+
+}
+
+/********************************/
+/******* ENDD SEVEN POINT CHECK*******/
+
+
+
