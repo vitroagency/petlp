@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 .wide {
   width:100%;
   height:100%;
@@ -17,8 +16,6 @@
     color: #fff;
     background-color: #dbd742;
 }
->>>>>>> 129a0bc975e0a417cc7bce6016e5880e720f45bb
-
 body {
   font-family: 'Lato', Arial, sans-serif;
   color: #98999b;
@@ -89,7 +86,7 @@ border-radius: 0px;
   margin-top:6px;
   width: inherit;
 }
-#zip-search-wrapper .form-group,{
+#zip-search-wrapper .form-group{
   margin-top:6px;
 }
 #zip-search-wrapper .input-group {
@@ -103,7 +100,7 @@ border-radius: 0px;
 }
 
 .bluesection {
-    background-color: #00a9e7;  
+    background-color: #5fa8e4;  
 }
 .navbar {
     min-height: 70px;
@@ -115,8 +112,8 @@ border-radius: 0px;
 }
 .padding20{padding:20px !important;}
  /* bx slider bootsrap fix */
-a.active img{background: #00a9e7 !important;}
-a img:hover{background: #00a9e7 !important;}
+a.active img{background: #5fa8e4!important;}
+a img:hover{background: #5fa8e4!important;}
 .bx-wrapper {width: 100%; height: 100%;}
  #bxslider1 img {width: 100%;
     min-width: 100%;
@@ -164,8 +161,8 @@ a img:hover{background: #00a9e7 !important;}
 }
 
 .navbar-inverse {
-    background-color: #00a9e7;
-    border-color: #00a9e7;
+    background-color: #5fa8e4;
+    border-color: #5fa8e4;
 }
 .offer_copy{
   float:left;
@@ -182,7 +179,7 @@ a img:hover{background: #00a9e7 !important;}
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    background-color: #00a9e7;
+    background-color: #5fa8e4;
     background-image: none;
     border: 2px solid #fff;
     border-radius: 4px;
@@ -264,7 +261,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     margin: auto;
     padding: 15px 30px;
     max-width: 600px;
-    margin: auto;
     display: block;
     float: none;
     height: 100%;
@@ -448,7 +444,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     margin: auto;
 }
 .btn-explore {
-  background: #00a9e7;
+  background: #5fa8e4;
   min-width: 120px;
   border-radius: 6px;
   margin-top: 12px;
@@ -512,7 +508,7 @@ a.btn {
 
 /*#checklist p.whitep{color:#fff !important;}*/
 
-#care_ani{min-height:460px;border-bottom: 1px solid #fff;padding-top: 40px;}
+#care_ani{min-height:460px;border-bottom: 1px solid #fff;padding-top: 40px;margin-top: 40px;}
 .services-section{padding:31px 70px 60px 70px;}
 
 .arrow_holder{height:30px;}
@@ -520,7 +516,7 @@ a.btn {
 width: 0;
 height: 0;
 border: 30px solid #fff;
-border-bottom: 30px solid #00a9e7;
+border-bottom: 30px solid #5fa8e4;
 border-top:none;
     position: absolute;
     right:47%;
@@ -531,7 +527,7 @@ border-top:none;
 #care_ani #care_main_bg {width:765px; height:331px;left:0;right:0;top:0px;bottom:0;margin: auto auto;visibility: visible;}
 
 .circle {
-    background: #00a9e7;
+    background: #5fa8e4;
     border: 2px #fff solid;
     border-radius:200px;
     position: absolute;
@@ -543,7 +539,7 @@ border-top:none;
 #circle_eyes {top: 10%;left: 4%;}
 #circle_mouth {top: 43%;left: 6%;}
 #circle_nose {top: 68%;left: 22%;}
-#circle_underside {top: 2%;left: 78%;}
+#circle_underside {top: 4%;left: 75%;}
 #circle_skin {top: 42%;left: 78%;}
 #circle_nails {top: 69%;left: 88%;}
 
@@ -559,21 +555,26 @@ border-top:none;
 
 #circle_center {top: 50%;left: 50%;}
 
-.point_desc p{width:100%;font-size:16px!important;line-height:20px!important;padding-top:40px;}
+a.point_desc p {width:100%;font-size:16px!important;line-height:20px!important;padding:40px 15px !important;    color:#fff !important;
+  text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	
+	}
 .circle p{
     color:#fff !important;
-    position:absolute;
-    top:20%;
-    left:0%;
-    right:0%;
-    margin: 20px!important;
-    letter-spacing: 3px;
-    text-align:center;
-    margin:0px!important;
-    letter-spacing: 1px!important;
-    line-height:24px!important;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 
 }
+
  @media only screen and (max-width : 768px) {
 .services-section{padding:16px 35px 30px 35px !important;}
 #care_ani #care_main_bg {width:565px; height:231px; top:0px; left:0px;visibility: visible;background-size: contain;}

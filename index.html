@@ -23,7 +23,7 @@
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/application.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
 
   </head>
   <body>
@@ -122,43 +122,43 @@
             <div id="circle_eyes" class="circle">
                 <p>Eyes</p>
               <a class="point_desc"> 
-                <p>Ensure your pets eyes are bright, clear and alert</p>
+                <p class="pointdesc">Ensure your pets eyes are bright, clear and alert</p>
               </a> 
             </div>
            <div id="circle_ears" class="circle">
                 <p>Ears</p>
               <a class="point_desc"> 
-                <p>Check ears are clean and odorless.</p>
+                <p class="pointdesc">Check ears are clean and odorless.</p>
               </a> 
             </div>
      <div id="circle_mouth" class="circle">
                 <p>Mouth</p>
               <a class="point_desc"> 
-                <p>Check ears are clean and odorless.</p>
+                <p class="pointdesc">Check ears are clean and odorless.</p>
               </a> 
             </div>
                <div id="circle_nose" class="circle">
                 <p>Nose</p>
               <a class="point_desc"> 
-                <p>Moist and un-cracked.</p>
+                <p class="pointdesc">Moist and un-cracked.</p>
               </a> 
             </div>
               <div id="circle_underside" class="circle">
-                <p>Under-Side</p>
+                <p >Under-Side</p>
               <a class="point_desc"> 
-                <p>Shiny, healthy, and unmatted coat.</p>
+                <p class="pointdesc">Shiny, healthy, and unmatted coat.</p>
               </a> 
             </div>
                 <div id="circle_skin" class="circle">
                 <p>Skin & Coat</p>
               <a class="point_desc"> 
-                <p>Shiny, healthy, and unmatted coat.</p>
+                <p class="pointdesc">Shiny, healthy, and unmatted coat.</p>
               </a> 
             </div>
                      <div id="circle_nails" class="circle">
-                <p>Nails & Pads</p>
+                <p >Nails & Pads</p>
               <a class="point_desc"> 
-                <p>Shiny, healthy nails; moist, un-cracked pads.</p>
+                <p class="pointdesc">Shiny, healthy nails; moist, un-cracked pads.</p>
               </a> 
             </div>
         </div>
@@ -626,12 +626,12 @@ The result was PERFECT! My dog looked absolutely adorable with his short hair wh
   $(".circle").each(function(index, element){
   var tl = new TimelineLite({paused:true});
       
-    TweenLite.set($(element).find("a"), {opacity:0,visibility:'visible',x:"-50", y:"-50"});
-    TweenLite.set($(element).find("p"), {top:"26%"});
+    TweenLite.set($(element).find("p.pointdesc"), {opacity:0,visibility:'visible', y:"25"});
+    TweenLite.set($(element).find("p"), {top:"50%"});
 
     tl.to(element, 0.8, {width:"200px",height:"200px", x:"-50", y:"-50",ease:Expo.easeInOut,force3D:true})
-    .to($(element).find("a"), 0.8, {opacity:1, padding:"10px",x:"0", y:"0",ease:Expo.easeInOut,force3D:true}, "-=0.5")
-    .to($(element).find("p"), 0.8, {top:"18%", ease:Expo.easeInOut,force3D:true}, "-=1.1")
+    .to($(element).find("p.pointdesc"), 0.8, {opacity:1, padding:"10px",x:"0", y:"0",ease:Expo.easeInOut,force3D:true}, "-=0.5")
+    .to($(element).find("p"), 0.8, {top:"35%", ease:Expo.easeInOut,force3D:true}, "-=1.1")
 
   element.animation = tl;
 })
