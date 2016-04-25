@@ -59,6 +59,7 @@ p.small {
   color: #fff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .sevenpoint{text-align:center;}
 =======
 >>>>>>> bkrutsch14/vitroagency-master
@@ -69,7 +70,11 @@ p.small {
   background-image: url('../img/header.jpg');
   background-size: cover;
 }
+=======
+>>>>>>> bkrutsch14/master
 a, a:hover, a:active, a:focus, a:visited { text-decoration: none; }
+.center, .center p { text-align: center; }
+
 
 .header-wrapper {
   padding:100px 0;
@@ -114,6 +119,7 @@ border-radius: 0px;
   margin-top:6px;
 }
 #zip-search-wrapper .btn-default {
+    color: #5fa8e4;
     background-color: #fff;
     border-color: #fff;
 }
@@ -611,9 +617,6 @@ border-top:none;
 }
 .services-section li {
   list-style: none;
-}
-.services-section p {
-  text-align: left;
 }
 
 
