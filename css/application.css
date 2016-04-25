@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', Arial, sans-serif;
+  color: #98999b;
 }
 h1 {
   font-weight: 400;
@@ -21,7 +22,7 @@ p{
 p.small {
   font-size: 16px;
   letter-spacing: 1px;
-   line-height: 24px;
+  line-height: 24px;
 
 }
 .white {
@@ -35,7 +36,6 @@ h1{text-align: center;}
 .header-wrapper {
   padding:100px 0;
   margin:0 auto;
-  color:#fff;
   background-color:#dbd742;
 }
 
@@ -62,11 +62,9 @@ border-radius: 0px;
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   margin:0;
   padding:1.2rem 0;
-  color:#fff;
   margin-left: 45px;
 }
 .control-label {
-  color:#fff;
   margin-top:6px;
   width: inherit;
 }
@@ -78,7 +76,6 @@ border-radius: 0px;
   margin-top:6px;
 }
 #zip-search-wrapper .btn-default {
-    color: #5fa8e4;
     background-color: #fff;
     border-color: #fff;
 }
@@ -124,12 +121,9 @@ a img:hover{background: #5fa8e4 !important;}
      }
 
 .slide-pane {
-    color:#FFF;
         padding: 0 44px;
 }
 .text-pane {
- 
-    color:#FFF;
     padding:20px 0 0 20px !important;
 }
 
@@ -158,7 +152,6 @@ a img:hover{background: #5fa8e4 !important;}
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   margin:0;
   padding:0.9rem 0;
-  color:#fff;
 }
 .form-control {
     display: block;
@@ -167,7 +160,6 @@ a img:hover{background: #5fa8e4 !important;}
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
     background-color: #5fa8e4;
     background-image: none;
     border: 2px solid #fff;
@@ -187,7 +179,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     z-index: 2;
     margin-left: -2px;
 }
-#zip-search-wrapper .form-control::-moz-placeholder {
+/*#zip-search-wrapper .form-control::-moz-placeholder {
   color: #fff;
 }
 #zip-search-wrapper .form-control:-ms-input-placeholder {
@@ -195,7 +187,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 #zip-search-wrapper .form-control::-webkit-input-placeholder {
   color: #fff;
-}
+}*/
 
 
 
