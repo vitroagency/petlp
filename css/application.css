@@ -14,6 +14,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 58px;
+  text-align: center;
 }
 h2 {
   font-weight: 400;
@@ -40,9 +41,12 @@ p.small {
 
 
 
+<<<<<<< HEAD
 
 >>>>>>> bkrutsch14/master
 h1{text-align: center;}
+=======
+>>>>>>> bkrutsch14/master
 .header-wrapper {
   padding:100px 0;
   margin:0 auto;
@@ -208,7 +212,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 /******* IRREG CTA STYLES *******/
 .irreg-cta-contain.row {
   margin: 0;
-  color: #fff;
 }
 
 .irreg-cta-contain h1, 
@@ -341,7 +344,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 .accordion h1 {
     font-weight: 700;
-    color: #98999b;
 }
 .panel {
     -webkit-box-shadow: none;
@@ -358,13 +360,11 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 .panel-default>.panel-heading {
     background-color: transparent;
     border: none;
-    color: #98999b;
     padding: 15px 0;
 }
 
 .panel-body {
     background: #dbd642;
-    color: #fff;
 }
 .answer {
   padding-top: 30px;
@@ -404,7 +404,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 .explore-cta-contain h1 {
     font-weight: 700;
-    color: #fff;
 
 }
 .cta {
@@ -442,7 +441,6 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 .btn-explore {
   background: #5fa8e4;
-  color: #fff;
   min-width: 120px;
   border-radius: 6px;
   margin-top: 12px;
@@ -589,7 +587,6 @@ border-top:none;
 }
 .services-section p {
   text-align: left;
-  color: #fff;
 }
 
 
