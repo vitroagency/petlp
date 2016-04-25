@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wide {
     width: 100%;
     height: 100%;
@@ -5,11 +6,46 @@
     background-image: url('../img/header.jpg');
     background-size: cover;
 }
+=======
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #98999b;
+}
+h1 {
+  font-weight: 400;
+  font-size: 58px;
+}
+h2 {
+  font-weight: 400;
+    font-size: 24px;
+}
+h4, h4.panel-title {
+  font-weight: 200;
+  font-size: 24px;
+  letter-spacing: .5px;
+}
+p{
+  font-weight:200;
+  font-size: 24px;
+}
+p.small {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+
+}
+.white {
+  color: #fff;
+}
+
+
+
+
+>>>>>>> bkrutsch14/master
 h1{text-align: center;}
 .header-wrapper {
   padding:100px 0;
   margin:0 auto;
-  color:#fff;
   background-color:#dbd742;
 }
 
@@ -36,12 +72,11 @@ border-radius: 0px;
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   margin:0;
   padding:1.2rem 0;
-  color:#fff;
   margin-left: 45px;
 }
 .control-label {
-  color:#fff;
   margin-top:6px;
+  width: inherit;
 }
 #zip-search-wrapper .form-group,{
   margin-top:6px;
@@ -51,7 +86,6 @@ border-radius: 0px;
   margin-top:6px;
 }
 #zip-search-wrapper .btn-default {
-    color: #5fa8e4;
     background-color: #fff;
     border-color: #fff;
 }
@@ -97,12 +131,9 @@ a img:hover{background: #5fa8e4 !important;}
      }
 
 .slide-pane {
-    color:#FFF;
         padding: 0 44px;
 }
 .text-pane {
- 
-    color:#FFF;
     padding:20px 0 0 20px !important;
 }
 
@@ -131,7 +162,6 @@ a img:hover{background: #5fa8e4 !important;}
   font-family:"Helvetica Neue", Helvetica, sans-serif;
   margin:0;
   padding:0.9rem 0;
-  color:#fff;
 }
 .form-control {
     display: block;
@@ -140,7 +170,6 @@ a img:hover{background: #5fa8e4 !important;}
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #fff;
     background-color: #5fa8e4;
     background-image: none;
     border: 2px solid #fff;
@@ -160,7 +189,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     z-index: 2;
     margin-left: -2px;
 }
-#zip-search-wrapper .form-control::-moz-placeholder {
+/*#zip-search-wrapper .form-control::-moz-placeholder {
   color: #fff;
 }
 #zip-search-wrapper .form-control:-ms-input-placeholder {
@@ -168,7 +197,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 #zip-search-wrapper .form-control::-webkit-input-placeholder {
   color: #fff;
-}
+}*/
 
 
 
@@ -187,9 +216,9 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     font-weight: 700;
 }
 .cta.salon p {
-  padding: 0 15px;
+  padding: 0 15px;/*
   font-size: 18px;
-  line-height: 28px;
+  line-height: 28px;*/
 }
 .clear {
     clear: both;
@@ -197,6 +226,11 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 .cta.salon {
     height: 500px;
 }
+.salon-contain {
+    max-width: 900px;
+    margin: auto;
+}
+.salon-contain
 .cta.rewards, 
 .cta.stylist {
   height: 250px;
@@ -206,16 +240,23 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
   color: #fc9527;
   min-width: 120px;
   border-radius: 6px;  
+  margin-top: 12px;
 }
 
 .rewards-content {
-  padding: 0 10%;
+  /*padding: 0 10%;*/
+    padding: 45px 10%;
 }
 .rewards-snippet {
     border: 4px dashed;
     /*width: 80%;*/
     margin: auto;
     padding: 15px 30px;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    float: none;
+    height: 100%;
 }
 .dollabill {
     font-size: 28px;
@@ -234,6 +275,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 .pals-rewards {
   font-size: 28px;
   font-weight: 600;
+  margin-top: 0;
 }
 .fortyplus {
   text-transform: uppercase;
@@ -247,7 +289,8 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 
 @media (max-width: 1200px) and (min-width: 992px) {
   .rewards-content {
-    padding: 0 30px;
+    /*padding: 0 30px;*/
+    padding: 45px 30px;
   }
   .rewards-snippet {
     padding: 15px;
@@ -255,8 +298,12 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 
 @media (max-width: 650px) {
+  .cta.rewards {
+    height: 275px;
+  }
   .rewards-content {
-    padding: 0 30px;
+    /*padding: 0 30px;*/
+    padding: 15px 30px;
   }
   .rewards-snippet {
     padding: 15px;
@@ -331,8 +378,8 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 }
 .answer p {
   padding: 0 15px;
-  font-size: 16px;
-  line-height: 24px;
+  /*font-size: 16px;*/
+  /*line-height: 24px;*/
 }
 
 
@@ -398,6 +445,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
   color: #fff;
   min-width: 120px;
   border-radius: 6px;
+  margin-top: 12px;
 }
 
 
@@ -420,6 +468,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
     color:#fff;
     font-size:16px;
     letter-spacing: 6px;
+    text-transform: uppercase;
 }
 #checklist h2:before,
 #checklist h2:after {
@@ -455,7 +504,7 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus, .btn-de
 #checklist p.whitep{color:#fff !important;}
 
 #care_ani{min-height:460px;border-bottom: 1px solid #fff;padding-top: 40px;}
-.sevenpoint{padding:31px 70px 60px 70px;}
+.services-section{padding:31px 70px 60px 70px;}
 
 .arrow_holder{height:30px;}
 .arrow {
@@ -517,14 +566,34 @@ border-top:none;
 
 }
  @media only screen and (max-width : 768px) {
-.sevenpoint{padding:16px 35px 30px 35px !important;}
+.services-section{padding:16px 35px 30px 35px !important;}
 #care_ani #care_main_bg {width:565px; height:231px; top:0px; left:0px;visibility: visible;background-size: contain;}
-
-
 }
 
-/********************************/
-/******* ENDD SEVEN POINT CHECK*******/
+/******* END SEVEN POINT CHECK *******/
+/*************************************/
 
+
+
+
+
+
+/*******************************/
+/******* WALKIN SERVICES *******/
+
+.services-section {
+  text-align: left;
+}
+.services-section li {
+  list-style: none;
+}
+.services-section p {
+  text-align: left;
+  color: #fff;
+}
+
+
+/***** END WALKIN SERVICES *****/
+/*******************************/
 
 
